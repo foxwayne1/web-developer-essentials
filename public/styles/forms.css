@@ -1,0 +1,32 @@
+/* 
+    --color-primary-whiteish: #f8f5f2;
+    --color-primary-light-purple: #5e37cc;
+    --color-primary-main-purple: #4f2ea8;
+    --color-primary-light-green: #4b7d92;
+    --color-primary-main-green: #406d80;
+    --space-1: 0.25rem;
+    --space-2: 0.5rem;
+    --space-4: 1rem;
+    --space-6: 1.5rem;
+    --space-8: 2rem;
+    --border-radius-small: 4px;
+    --border-radius-medium: 6px;
+*/
+
+form hr {
+  border-color: var(--color-primary-main-purple);
+  margin: var(--space-4);
+}
+label {
+  color: var(--color-primary-whiteish);
+  display: block;
+  margin-bottom: var(--space-2);
+}
+input,
+textarea {
+  font: inherit;
+  padding: var(--space-2);
+  border-radius: var(--border-radius-small);
+  border: none;
+  width: 90%;
+}

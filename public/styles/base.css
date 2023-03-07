@@ -7,17 +7,11 @@
 html {
   font-family: 'Roboto', 'sans-serif';
 
-  --color-gray-50: rgb(243, 236, 230);
-  --color-gray-100: rgb(207, 201, 195);
-  --color-gray-300: rgb(99, 92, 86);
-  --color-gray-400: rgb(70, 65, 60);
-  --color-gray-500: rgb(37, 34, 31);
-  --color-gray-600: rgb(32, 29, 26);
-  --color-gray-700: rgb(31, 26, 22);
-
   --color-primary-whiteish: #f8f5f2;
-  --color-primary-purple: #4f2ea8;
-  --color-primary-500-green: #406d80;
+  --color-primary-light-purple: #5e37cc;
+  --color-primary-main-purple: #4f2ea8;
+  --color-primary-light-green: #4b7d92;
+  --color-primary-main-green: #406d80;
 
   --color-error-100: rgb(255, 192, 180);
   --color-error-500: rgb(199, 51, 15);
@@ -35,7 +29,7 @@ html {
 }
 
 body {
-  background-color: var(--color-primary-purple);
+  background-color: var(--color-primary-main-purple);
   color: var(--color-primary-whiteish);
   margin: 0;
 }
@@ -58,13 +52,13 @@ a {
   cursor: pointer;
   font: inherit;
   padding: var(--space-2);
-  border: 1px solid var(--color-primary-500-green);
+  border: 1px solid var(--color-primary-main-green);
   border-radius: var(--border-radius-small);
-  background-color: var(--color-primary-500-green);
+  background-color: var(--color-primary-main-green);
   color: var(--color-primary-whiteish);
 }
 .btn:hover,
 .btn:active {
-  background-color: #2f5261;
-  border-color: #2f5261;
+  background-color: var(--color-primary-light-green);
+  border-color: var(--color-primary-light-green);
 }

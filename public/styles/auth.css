@@ -1,0 +1,34 @@
+/* 
+    --color-primary-whiteish: #f8f5f2;
+    --color-primary-light-purple: #5e37cc;
+    --color-primary-main-purple: #4f2ea8;
+    --color-primary-light-green: #4b7d92;
+    --color-primary-main-green: #406d80;
+    --space-1: 0.25rem;
+    --space-2: 0.5rem;
+    --space-4: 1rem;
+    --space-6: 1.5rem;
+    --space-8: 2rem;
+    --border-radius-small: 4px;
+    --border-radius-medium: 6px;
+*/
+
+h1 {
+  text-align: center;
+  color: var(--color-primary-whiteish);
+}
+form {
+  max-width: 25rem;
+  margin: var(--space-8) auto;
+  padding: var(--space-4);
+  background-color: var(--color-primary-light-purple);
+  border-radius: var(--border-radius-medium);
+  text-align: center;
+}
+form a {
+  color: var(--color-primary-whiteish);
+}
+form a:hover,
+form a:active {
+  font-weight: 500;
+}

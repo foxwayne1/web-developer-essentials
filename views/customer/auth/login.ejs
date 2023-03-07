@@ -1,0 +1,27 @@
+<%- include('../includes/head', {pageTitle: 'Signup Today'}); %>
+<html>
+<body>
+<%- include('../includes/header') ; %>
+<main>
+    <h1>Login To Your Account</h1>
+    <form action="" method="">
+        <p>
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" required>
+        </p>
+        <p>
+            <label for="confirm-email">Confirm Your Email</label>
+            <input type="email" name="confirm-email" id="confirm-email" required>
+        </p>
+        <p>
+            <label for="password">Password</label>
+            <input type="password" name="password" id="password" minlength="6" required>
+        </p>
+        <button class="btn">Login</button>
+        <p id="switch-form">
+            <a href="/signup">Signup Today</a>
+        </p>
+    </form>
+</main>
+
+<%- include('../includes/footer') ; %>

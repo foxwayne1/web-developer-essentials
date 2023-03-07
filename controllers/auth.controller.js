@@ -1,11 +1,11 @@
-// const express = require("express");
-
 function getSignup(req, res) {
-  res.render("customer/auth/signup");
+  res.render('customer/auth/signup')
 }
+
+function signup(req, res) {}
 
 function getLogin(req, res) {
-  res.render("customer/auth/login");
+  res.render('customer/auth/login')
 }
 
-module.exports = { getSignup, getLogin };
+module.exports = { getSignup, getLogin, signup }
